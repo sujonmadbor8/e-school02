@@ -1,7 +1,222 @@
 /* common css  */
+/* font start  */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+/* font end  */
+:root {
+    --black: #000000;
+    --green: #21b573;
+    --orange: #fd511a;
+    --light_green: #f0fff0;
+    --white: #ffffff;
+}
 body {
-    margin: 0;
-    padding: 0;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+/* common css  */
+
+/* header start  */
+header {
+    background-color: var(--light_green);
+}
+.logo {
+    width: 200px;
 }
 
-/* common css  */
+header nav ul li a {
+    margin-right: 50px;
+    color: var(--black) !important;
+}
+header nav ul li a:hover {
+    color: var(--orange) !important;
+}
+.btn_nav {
+    width: 105px;
+    height: 45px;
+}
+.btn_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--green);
+    border: 0;
+    border-radius: 30px;
+}
+.btn_c:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    border: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* header end  */
+
+/* banner start  */
+.banner {
+    background-color: var(--light_green);
+    padding: 30px 0 60px;
+}
+.banner_text {
+    padding: 0 230px 0 0;
+}
+.banner_img {
+}
+.banner_img img {
+}
+.btn_banner {
+    width: 155px;
+    height: 45px;
+}
+.orange {
+    color: var(--orange);
+}
+.banner_text h1 {
+    padding: 10px 0 20px 0;
+    font-family: Poppins-Bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--black);
+}
+.banner_text h1 span {
+    color: var(--green);
+}
+.banner_p {
+    padding-bottom: 20px;
+    line-height: 36px;
+}
+/* banner end  */
+
+/* feature start  */
+.feature {
+    padding: 0 0 100px;
+    text-align: center;
+}
+.feature_item {
+    margin-top: 45px;
+    background-color: var(--light_green);
+    padding: 50px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.feature_item:hover {
+    background-color: var(--white);
+    box-shadow: 0px 20px 40px 0px #0000001a;
+}
+.feature_item img {
+    padding-bottom: 25px;
+}
+.feature_item h2 {
+    font-family: Poppins-Medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* feature end  */
+
+/* courses start  */
+.courses {
+    padding: 0 0 100px;
+}
+.course_item {
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px 0px #0000001a;
+    border-radius: 18px;
+    line-height: 36px;
+}
+
+.course_img {
+}
+.course_img img {
+    width: 100%;
+    border-radius: 11px;
+}
+.c_h1 {
+    font-family: Poppins-Bold;
+    font-weight: 700;
+    font-size: 36px;
+}
+.c_h2 {
+    padding: 20px 0 5px;
+    font-family: Poppins-Medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.btn_course {
+    margin: 20px 0 35px;
+    width: 137px;
+    height: 35px;
+}
+
+/* courses end  */
+
+/* testimonial start  */
+.testimonial {
+    padding: 0 0 100px;
+}
+
+.carousel_item_c {
+    margin-top: 60px;
+}
+.t_img {
+}
+.t_text {
+}
+/* testimonial end  */
+
+/* links start  */
+.links {
+    padding: 55px 0 75px;
+    background-color: var(--black);
+    color: var(--white);
+}
+.link_text {
+    margin-right: 135px;
+}
+.link_text span {
+    line-height: 30px;
+}
+.f_li {
+    font-family: Poppins-Bold;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.link ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* links end  */
+
+/* foooter start  */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* foooter end  */

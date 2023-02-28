@@ -1,0 +1,15 @@
+E-School
+
+Figma to html with responsive
+
+font ---------
+poppins      400    500    700
+roboto       400
+font ---------
+
+color ---------
+green       #21B573
+black       #000000
+orange      #FD511A
+color ---------
+7   sections in this website

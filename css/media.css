@@ -1,21 +1,313 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* header start  */
+    .logo {
+        width: 160px;
+    }
+    header nav ul li a {
+        margin-bottom: 10px;
+    }
+    /* header end  */
+
+    /* banner start  */
+    .banner {
+        padding: 30px 0;
+    }
+    .banner_text {
+        text-align: center;
+        padding: 0;
+    }
+    .banner_text h1 {
+        padding: 10px 0 15px 0;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner_p {
+        line-height: 30px;
+    }
+    .btn_banner {
+        margin: auto;
+    }
+    .banner_img {
+        padding-bottom: 30px;
+    }
+
+    /* banner end  */
+
+    /* feature start  */
+    .feature {
+        padding: 0 0 50px;
+    }
+    .feature_item {
+        padding: 40px 30px;
+    }
+    /* feature end  */
+
+    /* courses start  */
+    .courses {
+        padding: 0 0 60px;
+    }
+    .course_item {
+        margin-top: 30px;
+        padding: 20px 15px 25px;
+    }
+    .c_h1 {
+        font-size: 30px;
+    }
+    .c_h2 {
+        padding: 10px 0 5px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .btn_course {
+        margin: 20px 0;
+    }
+    .card_footer_t {
+        font-size: 15px;
+    }
+    .calendar_icon {
+        width: 16px;
+    }
+    /* courses end  */
+    /* testimonial start  */
+    .testimonial {
+        padding: 0px 0 60px;
+    }
+    .carousel_item_c {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .t_img {
+        padding-bottom: 15px;
+    }
+    /* testimonial end  */
+
+    /* links start */
+    .links {
+        text-align: center;
+        padding: 30px 0;
+    }
+    .link_text {
+        margin-right: 0;
+        padding: 0 0 15px;
+    }
+    /* links end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start  */
+    .logo {
+        width: 190px;
+    }
+    header nav ul li a {
+        margin-bottom: 10px;
+    }
+    /* header end  */
+
+    /* banner start  */
+    .banner {
+        padding: 30px 0;
+    }
+    .banner_text {
+        text-align: center;
+        padding: 0 75px;
+    }
+    .banner_text h1 {
+        padding: 10px 0 15px 0;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner_p {
+        line-height: 30px;
+    }
+    .btn_banner {
+        margin: auto;
+    }
+    .banner_img {
+        padding: 0 70px 40px;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .feature {
+        padding: 0 0 60px;
+    }
+    .feature_item {
+        padding: 40px 30px;
+    }
+    /* feature end  */
+    /* courses start */
+    .courses {
+        padding: 0 80px 60px;
+    }
+    .course_item {
+        margin-top: 30px;
+        padding: 20px 15px 25px;
+    }
+    .c_h1 {
+        font-size: 30px;
+    }
+    .c_h2 {
+        padding: 10px 0 5px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .btn_course {
+        margin: 20px 0;
+    }
+    .card_footer_t {
+        font-size: 15px;
+    }
+    .calendar_icon {
+        width: 16px;
+    }
+    /* courses end */
+
+    /* testimonial start  */
+    .testimonial {
+        padding: 0px 0 60px;
+    }
+    .carousel_item_c {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .t_img {
+        padding-bottom: 15px;
+    }
+    /* testimonial end  */
+
+    /* links start */
+    .links {
+        text-align: center;
+        padding: 30px 0 50px;
+    }
+    .link_text {
+        margin-right: 0;
+        padding: 0 15px 15px;
+    }
+    /* links end */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start  */
+
+    header nav ul li a {
+        margin-bottom: 10px;
+    }
+    /* header end  */
+
+    /* banner start  */
+    .banner_text {
+        text-align: center;
+        padding: 0 130px;
+    }
+    .btn_banner {
+        margin: auto;
+    }
+    .banner_img {
+        padding: 0 100px 40px;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .feature {
+        padding: 0 0 80px;
+    }
+
+    /* feature end  */
+
+    /* course start  */
+
+    .courses {
+        padding: 0 150px 80px;
+    }
+    .course_item {
+        margin-top: 50px;
+    }
+    .card_footer_t {
+        font-size: 15px;
+    }
+    .calendar_icon {
+        width: 16px;
+    }
+    /* course end  */
+    /* testimonial start  */
+    .testimonial {
+        padding: 0px 0 80px;
+    }
+    .carousel_item_c {
+        margin-top: 50px;
+    }
+    /* testimonial end  */
+    /* links start */
+    .links {
+        text-align: center;
+        padding: 40px 0 60px;
+    }
+    .link_text {
+        margin-right: 0;
+        padding: 0 115px 15px;
+    }
+    /* links end */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header start  */
+    header nav ul li a {
+        margin-right: 30px;
+    }
+    /* header end  */
+
+    /* banner start  */
+    .banner_text {
+        padding: 0 50px 0 0;
+    }
+    .banner_img {
+        padding: 0 100px;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .feature_item {
+        padding: 30px 15px;
+    }
+    /* feature end  */
+
+    /* course start  */
+    .course_item {
+        padding: 15px 13px 20px;
+        border-radius: 10px;
+    }
+    .card_footer_t {
+        font-size: 15px;
+    }
+    .calendar_icon {
+        width: 16px;
+    }
+    /* course end  */
+    /* links start  */
+    .link_text {
+        margin-right: 30px;
+    }
+    /* links end  */
 }
 
 /* Extra large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* banner start  */
+    .banner_text {
+        padding: 0 140px 0 0;
+    }
+    /* banner end  */
+
+    /* feature start  */
+    .feature_item {
+        padding: 55px 35px;
+    }
+    /* feature end  */
 }
 
 /* Extra Extra  large devices (large desktops, 1400px and up) */
